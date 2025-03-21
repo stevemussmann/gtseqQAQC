@@ -15,9 +15,9 @@ The following is an example command, assuming you have two files containing the 
 ```
 
 Command explanations:
--f is used to input your original genotypes file
--q is used to specify your qaqc genotypes file
--o is used to specify a prefix that the script will use for naming the output files (e.g., `GT0012`).
+* `-f` is used to input your original genotypes file
+* `-q` is used to specify your qaqc genotypes file
+* `-o` is used to specify a prefix that the script will use for naming the output files (e.g., `GT0012`).
 
 The program will print to the screen a list of summary statistics for the amount of missing data in the two files, the proportion of detected genotype mismatches for individuals, and the proportion of detected genotype mismatches for loci. The script reports both 'raw' and 'adjusted' numbers of mismatches. The 'adjusted' values exclude missing data from their calculations. 
 
